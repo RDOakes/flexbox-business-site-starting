@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(58, 58, 136);
+    color: aliceblue;
+    width: 100%;
+    height: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.slogan {
+    font-weight: bolder;
+
+    font-size: 24px;
+    color: rgb(224, 238, 34);
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(https://www.clintonaluminum.com/wp-content/uploads/2018/10/Aluminum.jpg);
+    background-size: 100%;
+    z-index: 1;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    text-shadow: 3px 3px black;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    height: 60px;
+    margin: 0;
+    padding: 0%;
+}
+
+.nav li {
+    display: inline-flex;
+    list-style: none;
+    display: table-cell;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.nav li:hover {
+    color: rgb(224, 238, 34);
+    cursor: pointer;
+}
+
+ul {
+    
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
