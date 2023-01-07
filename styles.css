@@ -44,6 +44,7 @@ body {
     text-shadow: 3px 3px black;
     justify-content: space-evenly;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 .nav ul {
