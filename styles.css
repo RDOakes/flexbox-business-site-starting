@@ -218,15 +218,38 @@ body {
     flex-wrap: wrap;
     width: 150px;
     height: 150px;
-    background-repeat: no-repeat;
-    margin: 30px;
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
     overflow-wrap: break-word;
     align-content: center;
-    border-radius: 10px;
+    border-radius: 50%;
     transition: .2s ease-in-out;
+    border: 1px solid black;
 }
 .comment-list li:hover {
     scale: 1.5;
+}
+
+footer {
+    background-color: rgb(58, 58, 136);
+    padding: 20px;
+    border: 1px solid white;
+    color: aliceblue;
+    
+}
+
+footer li {
+    list-style: none;
+    
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    align-items: flex-end;
+    margin-top: 20px;
 }
 
 @media screen and (max-width:767px) {
