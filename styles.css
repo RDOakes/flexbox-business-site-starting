@@ -23,20 +23,32 @@ body {
     color: aliceblue;
 }
 
-.slogan {
-    font-weight: bolder;
-    text-align: center;
+.navbox {
     font-size: 24px;
-    color: rgb(224, 238, 34);
-    font-family: cursive;
+    font-weight: bolder;
+    height: 125px;
     display: inline-block;
     flex-wrap: wrap;
     background-image: url(https://www.clintonaluminum.com/wp-content/uploads/2018/10/Aluminum.jpg);
     background-size: 100%;
     z-index: 1;
+    font-family: cursive;
+    text-shadow: 3px 3px black;
+    align-items: center;
+    padding: auto;
+}
+
+.slogan {
+    font-family: cursive;
+    color: rgb(224, 238, 34);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 24px;
     justify-content: center;
     text-shadow: 3px 3px black;
-    flex-grow: 2;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: darkgrey;
 }
 
 .nav {
@@ -78,4 +90,12 @@ body {
     display: table;
     width: 100%;
     table-layout: fixed;
+}
+
+@media screen and (max-width:1000px) {
+    .wrap {
+        flex-direction: column;
+    }
+
+    
 }
