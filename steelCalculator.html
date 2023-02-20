@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-<html>
   <head>
     <link rel='stylesheet' href='styles.css'>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -23,7 +21,58 @@
         </div>
       </div>
     </div>
+    <div>
+    <script src="calculator.js"></script>
+    <div class="quote">
+    <form id="inputSpecs">
+      Material:
+        <select><option value="1">Mild Steel</option>
+        <option value="2">Stainless Steel</option> 
+        <option value="1.25">Aluminium</option></select>
+        <br>
+      Shape:
+        <select><option value="1">SHS</option>
+        <option value="1">RHS</option>
+        <option value="1.2">Tube</option>
+        <option value="2">Square Bar</option>
+        <option value="2">Round Bar</option>
+        <option value="2">Flat</option>
+        <option value="4">Column</option>
+        <option value="4">I-Beam</option></select>
+        <br>
+      Size:
+        <select><option value="1">1X1</option>
+        <option value="1.5">1X2</option>
+        <option value="2">1X4</option>
+        <option value="2.5">1X6</option>
+        <option value="3.2">1X10</option>
+        <option value="1.75">2X2</option>
+        <option value="2.5">2X4</option>
+        <option value="3">2X6</option>
+        <option value="4">2X10</option>
+        <option value="2.5">4X4</option>
+        <option value="3">4X6</option>
+        <option value="5">4X10</option> 
+        <option value="3.5">6X6</option>
+        <option value="5.5">6X10</option>
+        <option value="7">10X10</option></select>
+          <br>
+      Weight: 
+        <select><option value="1">5lb per foot</option>
+        <option value="2">10lb per foot</option>
+        <option value="3">15lb per foot</option>
+        <option value="4">20lb per foot</option>
+        <option value="6">30lb per foot</option>
+        <option value="10">50lb per foot</option></select>
+        <br>
+      Length: <input type="number" value="0"><br>
+      Quantity: <input type="number" value="0"><br><br>
+    </form> 
     
+      <button onclick="getQuote(), getTax()">Get your Quote!</button><br>
+    
+      <p>Your material will be<p id="quoteSum"></p></p><p id="tax"></p>
+    </div>
     <footer>
       <div class="nav">
         <ul>
@@ -43,4 +92,3 @@
       </div>
     </footer>
   </body>
-</html>

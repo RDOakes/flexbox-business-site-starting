@@ -8,13 +8,7 @@ body {
     flex-direction: column;
 }
 
-a {
-    text-decoration: none;
-}
 
-li a:visited {
-    color: aliceblue;
-}
 
 .wrap {
     display: flex;
@@ -115,13 +109,20 @@ li a:visited {
     padding: 10px;
 }
 
-.nav li:hover {
+.nav a:visited {
+    color: aliceblue;
+}
+
+.nav a:hover {
     color: rgb(224, 238, 34);
     cursor: pointer;
     transform: scale(1.2);
+    z-index: 1;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 .slogan {
     font-family: cursive;
@@ -221,7 +222,10 @@ li a:visited {
 
 
 
-
+.quote {
+    display: block;
+    text-align: center;
+}
 
 .comments {
     display: flex;
